@@ -9,6 +9,7 @@ namespace VisualizerTest {
 	class Program {
 		static void Main(string[] args) {
 			var hoge = @"http://kamiya.hatenadiary.jp/";
+			var uri = new Uri(hoge);
 			UriVisualizerDebugger.TestShowVisualizer(hoge);
 		}
 	}
